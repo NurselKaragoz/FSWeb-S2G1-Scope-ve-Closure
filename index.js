@@ -34,10 +34,12 @@ console.log(
   Aşağıdaki skor1 ve skor2 kodlarını inceleyiniz ve aşağıdaki soruları altına not alarak cevaplayın
   
   1. skor1 ve skor2 arasındaki fark nedir?
+  Skor1 de skor değişkeni değiştirilip müdahale edilemez. Skor2 aynı değişken değiştirilebilir.
   
   2. Hangisi bir closure kullanmaktadır? Nasıl tarif edebilirsin? (yarınki derste öğreneceksin :) )
-  
+  Skor1 closure kullanmaktadır. Fonksiyon içinde fonksiyon kullanarak skor değişkeni kilitlenmiştir. 
   3. Hangi durumda skor1 tercih edilebilir? Hangi durumda skor2 daha mantıklıdır?
+  Daha sonradan değiştirilmeyecek değerler için skor1 mantıklıdır.
 */
 
 // skor1 kodları
